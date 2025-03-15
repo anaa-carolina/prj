@@ -8,11 +8,12 @@
         "esModuleInterop": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
+        "baseUrl": "./src",
         "paths": {
-        //     "@domain/*" : ["domain/*"],
-        //     "@application/*" : ["application/*"],
-        //     "@infrasctructure/*" : ["application/*"],
-        //     "@presentation/*" : ["presentation/*"]
+        "@domain/*" : ["domain/*"],
+        "@application/*" : ["application/*"],
+        "@infrasctructure/*" : ["application/*"],
+        "@presentation/*" : ["presentation/*"]
         }
     }
 }
